@@ -1,0 +1,6 @@
+{
+  "name": "GlobeTrotter",
+  "description": "A personalized, collaborative multi-city travel planning platform with interactive itinerary builder, city & activity discovery, dynamic cost breakdowns, calendar timeline, and trip sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
