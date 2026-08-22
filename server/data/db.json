@@ -1,0 +1,922 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@globetrotter.io",
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "language": "English (US)",
+      "currency": "USD ($)",
+      "savedDestinations": [],
+      "role": "admin",
+      "bio": "Passionate globetrotter, photographer, and coffee enthusiast exploring cultural crossroads."
+    },
+    {
+      "id": "user-alex",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@globetrotter.io",
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "language": "English (US)",
+      "currency": "USD ($)",
+      "savedDestinations": [
+        "paris",
+        "kyoto",
+        "bali",
+        "cape-town"
+      ],
+      "role": "admin",
+      "bio": "Digital nomad, photographer, and espresso enthusiast passionate about discovering hidden cultural gems and culinary traditions worldwide."
+    },
+    {
+      "id": "user-admin",
+      "name": "Sarah Jenkins (Admin)",
+      "email": "sarah.jenkins@globetrotter.io",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+      "language": "English (US)",
+      "currency": "USD ($)",
+      "savedDestinations": [
+        "tokyo",
+        "rome",
+        "new-york",
+        "sydney"
+      ],
+      "role": "admin",
+      "bio": "Platform administrator and lead travel curator for GlobeTrotter."
+    },
+    {
+      "id": "user-1787385747018",
+      "name": "Rudra17",
+      "email": "rudra17@gmail.com",
+      "photo": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80",
+      "language": "English (US)",
+      "currency": "USD ($)",
+      "savedDestinations": [
+        "tokyo",
+        "rome"
+      ],
+      "role": "user",
+      "bio": "Ready to discover extraordinary destinations across the globe!"
+    },
+    {
+      "id": "user-1787388448461",
+      "name": "Rudra Ghataliya",
+      "email": "sarah.jenkins@theleela.com",
+      "photo": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=300&q=80",
+      "language": "English (US)",
+      "currency": "AUD ($)",
+      "savedDestinations": [
+        "paris",
+        "rome"
+      ],
+      "role": "user",
+      "bio": "Ready to discover extraordinary destinations across the globe!"
+    }
+  ],
+  "trips": [
+    {
+      "name": "Paris & Rome Foodie Tour",
+      "description": "A masterfully curated 10-day journey through Paris and Rome, tailored for family with luxury budget priorities.",
+      "coverPhoto": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80",
+      "startDate": "2026-09-05",
+      "endDate": "2026-09-15",
+      "dailyBudget": 358,
+      "transportCost": 120,
+      "stayCostPerNight": 269,
+      "isPublic": true,
+      "authorName": "Rudra Ghataliya",
+      "authorId": "user-1787388448461",
+      "stops": [
+        {
+          "id": "stop-ai-1787395953483-0",
+          "cityId": "paris",
+          "cityName": "Paris",
+          "country": "France",
+          "startDate": "2026-09-05",
+          "endDate": "2026-09-10",
+          "order": 1,
+          "notes": "Focus on foodie experiences in Paris. Top highlights: Eiffel Tower, Louvre Museum, Montmartre, Notre-Dame, Champs-Élysées.",
+          "stayCostPerNight": 180,
+          "transportToNextCost": 50,
+          "activities": [
+            {
+              "id": "act-ai-1787395953483-0-0",
+              "cityId": "paris",
+              "name": "Eiffel Tower Summit & Champagne Experience",
+              "type": "Sightseeing",
+              "cost": 55,
+              "durationHours": 2.5,
+              "description": "Ascend to the top deck of the iron lady with skip-the-line access and enjoy panoramic views over Paris paired with a glass of French champagne.",
+              "image": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Evening",
+              "location": "Champ de Mars, Paris",
+              "assignedDate": "2026-09-05"
+            },
+            {
+              "id": "act-ai-1787395953483-0-1",
+              "cityId": "paris",
+              "name": "Louvre Museum Masterpieces Guided Tour",
+              "type": "Culture & Arts",
+              "cost": 70,
+              "durationHours": 3,
+              "description": "Unravel the secrets of the Mona Lisa, Venus de Milo, and Winged Victory with an art historian guide through the world’s largest art museum.",
+              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Morning",
+              "location": "Rue de Rivoli, Paris",
+              "assignedDate": "2026-09-05"
+            },
+            {
+              "id": "act-ai-1787395953483-0-2",
+              "cityId": "paris",
+              "name": "Montmartre Secret Bakeries & Pastry Tasting",
+              "type": "Food & Culinary",
+              "cost": 65,
+              "durationHours": 2.5,
+              "description": "Stroll through bohemian Montmartre sampling warm artisan croissants, delicate macarons, award-winning baguettes, and fine cheeses.",
+              "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Morning",
+              "location": "Montmartre, Paris",
+              "assignedDate": "2026-09-05"
+            }
+          ]
+        },
+        {
+          "id": "stop-ai-1787395953483-1",
+          "cityId": "rome",
+          "cityName": "Rome",
+          "country": "Italy",
+          "startDate": "2026-09-10",
+          "endDate": "2026-09-15",
+          "order": 2,
+          "notes": "Focus on foodie experiences in Rome. Top highlights: Colosseum, Vatican City, Trevi Fountain, Pantheon, Trastevere.",
+          "stayCostPerNight": 145,
+          "transportToNextCost": 0,
+          "activities": [
+            {
+              "id": "act-ai-1787395953483-1-0",
+              "cityId": "rome",
+              "name": "Colosseum & Ancient Roman Forum Underground Tour",
+              "type": "Sightseeing",
+              "cost": 68,
+              "durationHours": 3,
+              "description": "Access the gladiator arena floor and underground dungeons beneath the Colosseum, followed by an in-depth stroll through the Roman Forum.",
+              "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Morning",
+              "location": "Piazza del Colosseo, Rome",
+              "assignedDate": "2026-09-10"
+            },
+            {
+              "id": "act-ai-1787395953483-1-1",
+              "cityId": "rome",
+              "name": "Vatican Museums, Sistine Chapel & St. Peter’s Basilica",
+              "type": "Culture & Arts",
+              "cost": 75,
+              "durationHours": 3.5,
+              "description": "Witness Michelangelo’s legendary frescoes in the Sistine Chapel and explore the immense treasures of the Vatican before entering St. Peter’s.",
+              "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Afternoon",
+              "location": "Vatican City, Rome",
+              "assignedDate": "2026-09-10"
+            },
+            {
+              "id": "act-ai-1787395953483-1-2",
+              "cityId": "rome",
+              "name": "Authentic Pasta & Tiramisu Cooking Masterclass",
+              "type": "Food & Culinary",
+              "cost": 80,
+              "durationHours": 3,
+              "description": "Make fresh pasta from scratch alongside an Italian chef in a traditional Roman kitchen, concluding with handmade tiramisu and local wine.",
+              "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Evening",
+              "location": "Trastevere, Rome",
+              "assignedDate": "2026-09-10"
+            }
+          ]
+        }
+      ],
+      "id": "trip-1787395953483",
+      "createdAt": "2026-08-22"
+    },
+    {
+      "name": "vacation",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-23",
+      "description": "ygsudg",
+      "coverPhoto": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80",
+      "dailyBudget": 450,
+      "stayCostPerNight": 400,
+      "transportCost": 500,
+      "isPublic": true,
+      "stops": [
+        {
+          "cityId": "san-francisco",
+          "cityName": "San Francisco",
+          "country": "United States",
+          "startDate": "2026-10-01",
+          "endDate": "2026-10-23",
+          "notes": "Added from destination discovery.",
+          "stayCostPerNight": 220,
+          "transportToNextCost": 0,
+          "id": "stop-1787395837635-mzkt",
+          "order": 1,
+          "activities": [
+            {
+              "id": "act-1787395868744-me2p",
+              "cityId": "tokyo",
+              "name": "Shibuya Night Street Food & Izakaya Crawl",
+              "type": "Food & Culinary",
+              "cost": 70,
+              "durationHours": 3,
+              "description": "Navigate the atmospheric alleyways of Shibuya with a local guide, sampling yakitori, gyoza, ramen, craft sake, and matcha desserts.",
+              "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
+              "timeOfDay": "Night",
+              "location": "Shibuya, Tokyo"
+            }
+          ]
+        }
+      ],
+      "authorId": "user-1787388448461",
+      "authorName": "Rudra Ghataliya",
+      "id": "trip-1787395814632",
+      "createdAt": "2026-08-22"
+    }
+  ],
+  "cities": [
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "region": "Europe",
+      "costIndex": 4,
+      "popularity": 98,
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80",
+      "description": "The City of Light captivates with timeless art, haute cuisine, iconic landmarks like the Eiffel Tower, and charming riverside promenades along the Seine.",
+      "topAttractions": [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Montmartre",
+        "Notre-Dame",
+        "Champs-Élysées"
+      ],
+      "avgDailyCost": 180,
+      "weather": "18°C Sunny",
+      "rating": 4.9
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "Italy",
+      "region": "Europe",
+      "costIndex": 3,
+      "popularity": 96,
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80",
+      "description": "An open-air museum steeped in nearly 3,000 years of globally influential art, architecture, ancient ruins like the Colosseum, and vibrant trattorias.",
+      "topAttractions": [
+        "Colosseum",
+        "Vatican City",
+        "Trevi Fountain",
+        "Pantheon",
+        "Trastevere"
+      ],
+      "avgDailyCost": 145,
+      "weather": "22°C Clear",
+      "rating": 4.8
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Spain",
+      "region": "Europe",
+      "costIndex": 3,
+      "popularity": 94,
+      "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=800&q=80",
+      "description": "A vibrant Mediterranean seaside city renowned for Antoni Gaudí’s surreal modernist architecture, lively Gothic quarter, and world-class tapas scene.",
+      "topAttractions": [
+        "Sagrada Família",
+        "Park Güell",
+        "Gothic Quarter",
+        "La Rambla",
+        "Barceloneta Beach"
+      ],
+      "avgDailyCost": 130,
+      "weather": "24°C Sunny",
+      "rating": 4.8
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "region": "Asia",
+      "costIndex": 4,
+      "popularity": 99,
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80",
+      "description": "A hyper-modern metropolis where neon-lit skyscrapers, historic Shinto shrines, Michelin-starred gastronomy, and cutting-edge tech seamlessly coexist.",
+      "topAttractions": [
+        "Shibuya Crossing",
+        "Senso-ji Temple",
+        "Shinjuku Gyoen",
+        "Tokyo Skytree",
+        "Akihabara"
+      ],
+      "avgDailyCost": 165,
+      "weather": "20°C Mild",
+      "rating": 4.9
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "country": "Japan",
+      "region": "Asia",
+      "costIndex": 3,
+      "popularity": 93,
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+      "description": "Japan’s cultural soul featuring thousands of classical Buddhist temples, gardens, imperial palaces, traditional wooden machiya houses, and geisha districts.",
+      "topAttractions": [
+        "Fushimi Inari-taisha",
+        "Arashiyama Bamboo Grove",
+        "Kinkaku-ji (Golden Pavilion)",
+        "Gion District"
+      ],
+      "avgDailyCost": 135,
+      "weather": "19°C Pleasant",
+      "rating": 4.9
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka",
+      "country": "Japan",
+      "region": "Asia",
+      "costIndex": 3,
+      "popularity": 91,
+      "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=800&q=80",
+      "description": "The culinary capital of Japan, famous for street food like takoyaki, vibrant nightlife in Dotonbori, and centuries-old Osaka Castle.",
+      "topAttractions": [
+        "Dotonbori",
+        "Osaka Castle",
+        "Shinsekai",
+        "Universal Studios Japan",
+        "Kuromon Market"
+      ],
+      "avgDailyCost": 125,
+      "weather": "21°C Clear",
+      "rating": 4.7
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "region": "Asia",
+      "costIndex": 2,
+      "popularity": 95,
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=800&q=80",
+      "description": "An exhilarating capital renowned for ornate shrines, bustling floating markets, street food stalls, river ferries, and vibrant rooftop lounges.",
+      "topAttractions": [
+        "Grand Palace",
+        "Wat Arun",
+        "Chatuchak Weekend Market",
+        "Chao Phraya River",
+        "Khao San Road"
+      ],
+      "avgDailyCost": 75,
+      "weather": "31°C Tropical",
+      "rating": 4.7
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "country": "Indonesia",
+      "region": "Asia",
+      "costIndex": 2,
+      "popularity": 97,
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+      "description": "Island of the Gods boasting emerald rice terraces, cliffside temples, pristine beaches, vibrant spiritual culture, and tranquil wellness retreats.",
+      "topAttractions": [
+        "Ubud Monkey Forest",
+        "Tanah Lot Temple",
+        "Tegallalang Rice Terraces",
+        "Seminyak Beach",
+        "Uluwatu Temple"
+      ],
+      "avgDailyCost": 80,
+      "weather": "29°C Balmy",
+      "rating": 4.9
+    },
+    {
+      "id": "new-york",
+      "name": "New York City",
+      "country": "United States",
+      "region": "Americas",
+      "costIndex": 5,
+      "popularity": 99,
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=800&q=80",
+      "description": "The energetic heartbeat of culture, finance, Broadway theater, world-class museums, iconic skyline views, and neighborhoods rich in diversity.",
+      "topAttractions": [
+        "Central Park",
+        "Times Square",
+        "Empire State Building",
+        "Statue of Liberty",
+        "Brooklyn Bridge"
+      ],
+      "avgDailyCost": 240,
+      "weather": "22°C Clear",
+      "rating": 4.8
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "United States",
+      "region": "Americas",
+      "costIndex": 5,
+      "popularity": 90,
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "description": "Famous for the majestic Golden Gate Bridge, rolling hills, historic cable cars, Victorian Painted Ladies, and culinary innovation.",
+      "topAttractions": [
+        "Golden Gate Bridge",
+        "Alcatraz Island",
+        "Fisherman’s Wharf",
+        "Chinatown",
+        "Mission District"
+      ],
+      "avgDailyCost": 220,
+      "weather": "17°C Foggy Morning",
+      "rating": 4.6
+    },
+    {
+      "id": "rio",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "region": "Americas",
+      "costIndex": 2,
+      "popularity": 89,
+      "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=800&q=80",
+      "description": "Sun-drenched coastal marvel framed by dramatic granite peaks, samba rhythms, famous Copacabana and Ipanema beaches, and Christ the Redeemer.",
+      "topAttractions": [
+        "Christ the Redeemer",
+        "Sugarloaf Mountain",
+        "Copacabana Beach",
+        "Ipanema Beach",
+        "Santa Teresa"
+      ],
+      "avgDailyCost": 85,
+      "weather": "28°C Sunny",
+      "rating": 4.7
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "country": "Egypt",
+      "region": "Africa & Middle East",
+      "costIndex": 2,
+      "popularity": 91,
+      "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?auto=format&fit=crop&w=800&q=80",
+      "description": "Cradle of ancient civilization where millennia-old Giza Pyramids and the Sphinx overlook the Nile, alongside bustling Islamic bazaars.",
+      "topAttractions": [
+        "Pyramids of Giza",
+        "The Great Sphinx",
+        "Egyptian Museum",
+        "Khan el-Khalili Bazaar",
+        "Nile River Cruise"
+      ],
+      "avgDailyCost": 65,
+      "weather": "32°C Sunny",
+      "rating": 4.6
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "region": "Africa & Middle East",
+      "costIndex": 4,
+      "popularity": 96,
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80",
+      "description": "An architectural wonderland in the desert with the world’s tallest skyscraper (Burj Khalifa), luxury shopping, desert safaris, and artificial islands.",
+      "topAttractions": [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Palm Jumeirah",
+        "Desert Safari Dunes",
+        "Dubai Marina"
+      ],
+      "avgDailyCost": 210,
+      "weather": "34°C Warm",
+      "rating": 4.8
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "region": "Africa & Middle East",
+      "costIndex": 2,
+      "popularity": 92,
+      "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=80",
+      "description": "Spectacular coastal city where dramatic Table Mountain meets Atlantic waves, penguin colonies at Boulders Beach, and scenic Cape Winelands.",
+      "topAttractions": [
+        "Table Mountain",
+        "Robben Island",
+        "Cape Point",
+        "Boulders Penguin Beach",
+        "Kirstenbosch Gardens"
+      ],
+      "avgDailyCost": 95,
+      "weather": "23°C Sunny",
+      "rating": 4.9
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "region": "Oceania",
+      "costIndex": 4,
+      "popularity": 94,
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=800&q=80",
+      "description": "Australia’s shining harbor city featuring the iconic Opera House, Harbour Bridge climb, golden sands of Bondi Beach, and coastal cliff walks.",
+      "topAttractions": [
+        "Sydney Opera House",
+        "Sydney Harbour Bridge",
+        "Bondi to Coogee Walk",
+        "Manly Beach",
+        "The Rocks"
+      ],
+      "avgDailyCost": 175,
+      "weather": "22°C Coastal Breeze",
+      "rating": 4.8
+    },
+    {
+      "id": "auckland",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "costIndex": 4,
+      "popularity": 88,
+      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=800&q=80",
+      "description": "The City of Sails, situated between two sparkling harbors with dormant volcanic cones, lush rainforest trails, and nearby Waiheke wine island.",
+      "topAttractions": [
+        "Sky Tower",
+        "Waiheke Island",
+        "Mount Eden",
+        "Viaduct Harbour",
+        "Rangitoto Island"
+      ],
+      "avgDailyCost": 155,
+      "weather": "18°C Mild",
+      "rating": 4.7
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "costIndex": 4,
+      "popularity": 97,
+      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+      "description": "A global epicenter of history, royalty, West End theater, world-class free museums, expansive royal parks, and cosmopolitan neighborhoods.",
+      "topAttractions": [
+        "Big Ben & Westminster",
+        "Tower of London",
+        "British Museum",
+        "Hyde Park",
+        "Tate Modern"
+      ],
+      "avgDailyCost": 190,
+      "weather": "16°C Scattered Showers",
+      "rating": 4.8
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "region": "Europe",
+      "costIndex": 4,
+      "popularity": 92,
+      "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=800&q=80",
+      "description": "Charming city of picturesque canal rings, cycling culture, Rijksmuseum masterpieces, Van Gogh legacy, and historic canal houses.",
+      "topAttractions": [
+        "Rijksmuseum",
+        "Anne Frank House",
+        "Van Gogh Museum",
+        "Canal Ring Cruise",
+        "Jordaan District"
+      ],
+      "avgDailyCost": 160,
+      "weather": "17°C Pleasant",
+      "rating": 4.7
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-paris-1",
+      "cityId": "paris",
+      "name": "Eiffel Tower Summit & Champagne Experience",
+      "type": "Sightseeing",
+      "cost": 55,
+      "durationHours": 2.5,
+      "description": "Ascend to the top deck of the iron lady with skip-the-line access and enjoy panoramic views over Paris paired with a glass of French champagne.",
+      "image": "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Evening",
+      "location": "Champ de Mars, Paris"
+    },
+    {
+      "id": "act-paris-2",
+      "cityId": "paris",
+      "name": "Louvre Museum Masterpieces Guided Tour",
+      "type": "Culture & Arts",
+      "cost": 70,
+      "durationHours": 3,
+      "description": "Unravel the secrets of the Mona Lisa, Venus de Milo, and Winged Victory with an art historian guide through the world’s largest art museum.",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Rue de Rivoli, Paris"
+    },
+    {
+      "id": "act-paris-3",
+      "cityId": "paris",
+      "name": "Montmartre Secret Bakeries & Pastry Tasting",
+      "type": "Food & Culinary",
+      "cost": 65,
+      "durationHours": 2.5,
+      "description": "Stroll through bohemian Montmartre sampling warm artisan croissants, delicate macarons, award-winning baguettes, and fine cheeses.",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Montmartre, Paris"
+    },
+    {
+      "id": "act-paris-4",
+      "cityId": "paris",
+      "name": "Seine Sunset Dinner Cruise with Live Jazz",
+      "type": "Food & Culinary",
+      "cost": 110,
+      "durationHours": 2.5,
+      "description": "Cruise along the Seine River aboard an illuminated glass boat enjoying a 4-course French culinary dinner accompanied by live acoustic jazz.",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Night",
+      "location": "Port de la Bourdonnais, Paris"
+    },
+    {
+      "id": "act-rome-1",
+      "cityId": "rome",
+      "name": "Colosseum & Ancient Roman Forum Underground Tour",
+      "type": "Sightseeing",
+      "cost": 68,
+      "durationHours": 3,
+      "description": "Access the gladiator arena floor and underground dungeons beneath the Colosseum, followed by an in-depth stroll through the Roman Forum.",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Piazza del Colosseo, Rome"
+    },
+    {
+      "id": "act-rome-2",
+      "cityId": "rome",
+      "name": "Vatican Museums, Sistine Chapel & St. Peter’s Basilica",
+      "type": "Culture & Arts",
+      "cost": 75,
+      "durationHours": 3.5,
+      "description": "Witness Michelangelo’s legendary frescoes in the Sistine Chapel and explore the immense treasures of the Vatican before entering St. Peter’s.",
+      "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Afternoon",
+      "location": "Vatican City, Rome"
+    },
+    {
+      "id": "act-rome-3",
+      "cityId": "rome",
+      "name": "Authentic Pasta & Tiramisu Cooking Masterclass",
+      "type": "Food & Culinary",
+      "cost": 80,
+      "durationHours": 3,
+      "description": "Make fresh pasta from scratch alongside an Italian chef in a traditional Roman kitchen, concluding with handmade tiramisu and local wine.",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Evening",
+      "location": "Trastevere, Rome"
+    },
+    {
+      "id": "act-barcelona-1",
+      "cityId": "barcelona",
+      "name": "Sagrada Família Fast-Track Tower Access Tour",
+      "type": "Culture & Arts",
+      "cost": 50,
+      "durationHours": 2,
+      "description": "Marvel at Gaudí’s uncompleted masterpiece with breathtaking stained glass lighting and elevator ride up the Nativity facade tower.",
+      "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Eixample, Barcelona"
+    },
+    {
+      "id": "act-barcelona-2",
+      "cityId": "barcelona",
+      "name": "Gothic Quarter Tapas & Catalan Wine Tasting Trail",
+      "type": "Food & Culinary",
+      "cost": 65,
+      "durationHours": 3,
+      "description": "Hop between historic taverns in the Gothic Quarter tasting Iberian ham, patatas bravas, gambas al ajillo, and regional cava.",
+      "image": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Evening",
+      "location": "Barri Gòtic, Barcelona"
+    },
+    {
+      "id": "act-barcelona-3",
+      "cityId": "barcelona",
+      "name": "Mediterranean Coast Sailing & Swimming Cruise",
+      "type": "Adventure & Nature",
+      "cost": 75,
+      "durationHours": 2.5,
+      "description": "Sail along Barcelona’s skyline on a modern yacht with open bar drinks, snacks, and a mid-sea swim stop in warm Mediterranean waters.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Afternoon",
+      "location": "Port Olímpic, Barcelona"
+    },
+    {
+      "id": "act-tokyo-1",
+      "cityId": "tokyo",
+      "name": "Shibuya Night Street Food & Izakaya Crawl",
+      "type": "Food & Culinary",
+      "cost": 70,
+      "durationHours": 3,
+      "description": "Navigate the atmospheric alleyways of Shibuya with a local guide, sampling yakitori, gyoza, ramen, craft sake, and matcha desserts.",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Night",
+      "location": "Shibuya, Tokyo"
+    },
+    {
+      "id": "act-tokyo-2",
+      "cityId": "tokyo",
+      "name": "teamLab Planets Digital Art Immersion",
+      "type": "Culture & Arts",
+      "cost": 40,
+      "durationHours": 2,
+      "description": "Walk through water and become one with giant floating flowers and endless crystal light installations in this world-renowned interactive museum.",
+      "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Afternoon",
+      "location": "Toyosu, Tokyo"
+    },
+    {
+      "id": "act-tokyo-3",
+      "cityId": "tokyo",
+      "name": "Mount Fuji & Lake Kawaguchi Day Expedition",
+      "type": "Adventure & Nature",
+      "cost": 95,
+      "durationHours": 8,
+      "description": "Full-day scenic excursion to the 5th Station of Mt. Fuji, panoramic cable car above Lake Kawaguchi, and Oshino Hakkai ninja village.",
+      "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Yamanashi Prefecture, Tokyo departure"
+    },
+    {
+      "id": "act-kyoto-1",
+      "cityId": "kyoto",
+      "name": "Fushimi Inari Torii Gates Dawn Walking Tour",
+      "type": "Sightseeing",
+      "cost": 30,
+      "durationHours": 2.5,
+      "description": "Hike through the 10,000 vermilion Torii gates before crowds arrive, discovering hidden mountain shrines and sacred fox statues.",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Fushimi, Kyoto"
+    },
+    {
+      "id": "act-kyoto-2",
+      "cityId": "kyoto",
+      "name": "Traditional Machiya Tea Ceremony & Kimono Dressing",
+      "type": "Culture & Arts",
+      "cost": 60,
+      "durationHours": 2,
+      "description": "Wear a ceremonial silk kimono and learn the refined ritual of Japanese matcha preparation from a certified Urasenke tea master.",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Afternoon",
+      "location": "Gion, Kyoto"
+    },
+    {
+      "id": "act-osaka-1",
+      "cityId": "osaka",
+      "name": "Dotonbori Street Food Safari & Takoyaki Workshop",
+      "type": "Food & Culinary",
+      "cost": 50,
+      "durationHours": 2.5,
+      "description": "Taste Osaka’s soul foods under neon giant billboards and learn how to turn octopus takoyaki balls with wooden skewers.",
+      "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Evening",
+      "location": "Dotonbori, Osaka"
+    },
+    {
+      "id": "act-bangkok-1",
+      "cityId": "bangkok",
+      "name": "Grand Palace & Wat Arun Sunset Longtail Boat Tour",
+      "type": "Sightseeing",
+      "cost": 45,
+      "durationHours": 3.5,
+      "description": "Marvel at glittering golden spires, the Emerald Buddha temple, and glide along narrow canal waterways aboard a traditional longtail boat.",
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Rattanakosin, Bangkok"
+    },
+    {
+      "id": "act-bangkok-2",
+      "cityId": "bangkok",
+      "name": "Michelin Street Food Tuk-Tuk Midnight Adventure",
+      "type": "Food & Culinary",
+      "cost": 55,
+      "durationHours": 4,
+      "description": "Zip through Bangkok’s illuminated streets in a custom neon tuk-tuk, tasting world-famous Pad Thai, crispy pork belly, and mango sticky rice.",
+      "image": "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Night",
+      "location": "Chinatown, Bangkok"
+    },
+    {
+      "id": "act-bali-1",
+      "cityId": "bali",
+      "name": "Ubud Waterfall, Rice Terrace & Sacred Monkey Forest",
+      "type": "Adventure & Nature",
+      "cost": 50,
+      "durationHours": 6,
+      "description": "Trek through lush green jungle valleys, walk among wild macaques, and swing high above the Tegallalang rice paddies.",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Ubud, Bali"
+    },
+    {
+      "id": "act-bali-2",
+      "cityId": "bali",
+      "name": "Mount Batur Sunrise Volcano Trek & Hot Springs",
+      "type": "Adventure & Nature",
+      "cost": 65,
+      "durationHours": 6,
+      "description": "Hike to the summit of active Mount Batur before daybreak to watch the clouds light up orange, followed by a soak in volcanic mineral springs.",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Kintamani, Bali"
+    },
+    {
+      "id": "act-bali-3",
+      "cityId": "bali",
+      "name": "Traditional Balinese Spa & Flower Bath Ritual",
+      "type": "Relaxation",
+      "cost": 55,
+      "durationHours": 2.5,
+      "description": "Indulge in a relaxing deep tissue aromatherapy massage, natural herbal body scrub, and an organic tropical flower bath overlooking the river.",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Afternoon",
+      "location": "Seminyak, Bali"
+    },
+    {
+      "id": "act-nyc-1",
+      "cityId": "new-york",
+      "name": "Summit One Vanderbilt Immersive Observation Deck",
+      "type": "Sightseeing",
+      "cost": 52,
+      "durationHours": 2,
+      "description": "Step into reflective infinity glass rooms 1,200 feet above Midtown Manhattan with 360-degree views of the Empire State Building and Chrysler Building.",
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Midtown, New York City"
+    },
+    {
+      "id": "act-nyc-2",
+      "cityId": "new-york",
+      "name": "Broadway Hit Musical Premium Evening Ticket",
+      "type": "Culture & Arts",
+      "cost": 145,
+      "durationHours": 3,
+      "description": "Experience an unforgettable award-winning Broadway production in the heart of the theater district.",
+      "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Night",
+      "location": "Times Square, New York City"
+    },
+    {
+      "id": "act-cairo-1",
+      "cityId": "cairo",
+      "name": "Giza Pyramids & Sphinx Camel Safari with Lunch",
+      "type": "Adventure & Nature",
+      "cost": 60,
+      "durationHours": 5,
+      "description": "Ride a desert camel past the Great Pyramid of Khufu and the enigmatic Sphinx, led by an Egyptologist guide.",
+      "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Giza Plateau, Cairo"
+    },
+    {
+      "id": "act-sydney-1",
+      "cityId": "sydney",
+      "name": "Sydney Harbour BridgeClimb Twilight Adventure",
+      "type": "Adventure & Nature",
+      "cost": 195,
+      "durationHours": 3.5,
+      "description": "Scale the iconic steel arches of Sydney Harbour Bridge as the sky turns gold and purple, overlooking the Opera House.",
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Evening",
+      "location": "The Rocks, Sydney"
+    },
+    {
+      "id": "act-sydney-2",
+      "cityId": "sydney",
+      "name": "Bondi to Bronte Coastal Walk & Surf Lesson",
+      "type": "Adventure & Nature",
+      "cost": 70,
+      "durationHours": 3,
+      "description": "Catch your first waves at world-famous Bondi Beach with certified lifeguards, followed by coffee along coastal sandstone cliffs.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+      "timeOfDay": "Morning",
+      "location": "Bondi Beach, Sydney"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-08-22T10:53:04.266Z"
+  }
+}
